@@ -11,7 +11,7 @@ img{
 
     width: 30%;
     border-radius: 20%;
-    border: .4vw dashed aliceblue;
+    border: .4vw dashed #f0f8ff;
     margin: 40px 0 40px 9vw;
 }
 h1{
@@ -27,9 +27,9 @@ h2{
     font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular';
     text-align: center;
     font-size: 28px;
-    color: #4d4f67;
+    color: #64699d;
     margin: 80px 18vw 25px 18vw;
-    border-bottom: 2px solid #303140;
+    border-bottom: 2px solid #587291;
 }
 #listbox{
     text-align: center;
@@ -42,7 +42,7 @@ ul{
     font-size: 17px;
     border: 4px dashed aliceblue;
     font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular';
-    color:#303140;
+    color:#587291;
   }
   a{
     text-decoration: none;
@@ -63,5 +63,5 @@ footer{
 p{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular';
-    color:#303140;
+    color:#587291;
 }
