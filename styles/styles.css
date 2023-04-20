@@ -16,7 +16,7 @@ img{
 }
 h1{
     font-size: 3vw;
-    color:#CAE7B9;
+    color:#b4dc9d;
     padding: 5px 15px 5px 5px;
     background-color: aliceblue;
     margin: auto 4vw auto 5vw;
@@ -27,9 +27,9 @@ h2{
     font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular';
     text-align: center;
     font-size: 28px;
-    color: #7E7F9A;
+    color: #4d4f67;
     margin: 80px 18vw 25px 18vw;
-    border-bottom: 2px solid #7E7F9A;
+    border-bottom: 2px solid #303140;
 }
 #listbox{
     text-align: center;
@@ -42,7 +42,7 @@ ul{
     font-size: 17px;
     border: 4px dashed aliceblue;
     font-family: 'Lucida Handwriting', 'Lucida Sans', 'Lucida Sans Regular';
-    color:#7E7F9A;
+    color:#303140;
   }
   a{
     text-decoration: none;
