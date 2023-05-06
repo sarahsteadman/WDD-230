@@ -73,6 +73,9 @@ ul {
   max-width: 400px;
   margin: 0 auto;
 }
+ul h4{
+  color:#f5e9e2;
+}
 li {
   color: #f5e9e2;
   text-align: left;
