@@ -1,0 +1,128 @@
+body{
+  background-color: #FFFFF4;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+  width: 15vw;
+  height: 15vw;
+  border: 1px solid #A31621;
+  margin: 2vw;
+}
+h1,h2 {
+  font-size: 7vw;
+  justify-content: left;
+  font-family: 'Raleway', sans-serif;
+  color:#A31621;
+  margin: 0;
+}
+h2{
+  font-size: 4vw;
+}
+#header-box {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  background-color: #ffd26f;
+}
+.socials img {
+  width: 7vw;
+  border-radius: 100%;
+}
+#right-stuff{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+#hamButton {
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    color: #A31621 ;
+    border: 2px solid #A31621;
+    background-color: #FFFFF4;
+    margin: 8px;
+}
+.navigation {
+  display: none;
+}
+.navigation.responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbe8bf;
+  padding: 15px;
+  margin: 0;
+}
+.navigation.responsive a{
+    width: 150px;
+    margin: 8px;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #ffd26f;
+    color:#A31621;
+}
+.navigation.responsive a:hover{
+    background-color: #FFFFF4;
+}
+#time {
+  text-align: center;
+  font-size: 1em;
+  color:#A31621;
+  background-color: #fff9a3;
+  padding: 5px 0;
+  margin: 0;
+}
+main section{
+  height: 300px;
+  width: 90%;
+  margin: 10px auto;
+  padding: 5px;
+  background-color: #fff9a3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#spotlights section{
+  height: 120px;
+  border: 1px solid #ffd26f;
+}
+footer{
+  /* display: grid;
+  grid-template: "a a" auto
+                 "b c" 1fr
+                 "d d" auto/ 1fr 1fr; */
+}
+footer .logo{
+  display: block;
+  margin: 0 auto;
+  /* grid-area: a; */
+  width: 30vw;
+  height: 30vw;
+  max-width: 200px;
+  max-height: 200px;
+  border: none;
+}
+footer p{
+  margin: 10px auto;
+  text-align: center;
+  line-height: 25px;
+}
+iframe{
+  display:block;
+  margin: 10px auto;
+}
+#small{
+  background-color: #ffd26f;
+  /* grid-area: d; */
+  padding:5px;
+  width: 100%;
+  color: #A31621;
+  font-size: smaller;
+}
+#big{
+  display: none;
+}
