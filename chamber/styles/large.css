@@ -1,0 +1,102 @@
+
+  @media only screen and (min-width: 1130px) {
+    h1{
+      font-size: 3em;
+    }
+    h2{
+      font-size: 2em;
+    }
+    #header-box{
+      display: grid;
+      grid-template: "a c b ." auto
+                     "a c . d" auto
+                     "a c . ." auto
+                     "e e e e" auto/ 1fr 3fr 510px 1fr;
+    }
+    .logo{
+      height: 8vw;
+      width: 8vw;
+      grid-area: a;
+    }
+    #time{
+      grid-area: e;
+    }
+    #headers{
+      grid-area: c;
+    }
+    #right-stuff{
+      grid-area: d;
+    }
+    .socials img{
+      height: 4vw;
+      width: 4vw;
+    }
+    #hamButton{
+      display: none;
+    }
+    nav.responsive{
+      display: none;
+    }
+    nav{
+      display: inline;
+      margin-top: 20px;
+      grid-area: b;
+    }
+    a{
+      text-align: left;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #a31621;
+      font-size: 2em;
+      padding:5px;
+    }
+    nav a:hover{
+      border: 5px double #fffff4;
+    }
+    main {
+      margin: 20px;
+      margin-bottom: 40px;
+      display: grid;
+      grid-gap: 40px;
+      grid-template:
+        "a b c" 300px
+        "d b c" 300px
+        "f g c" 300px / 1fr 2fr 1fr
+    }
+    main section{
+      width: 100%;
+      height: 100%;
+    }
+    #hero {
+      grid-area: b;
+    }
+    #news {
+      grid-area: g;
+    }
+    #spotlights {
+      grid-area: c;
+      display: flex;
+      flex-direction: column;
+    }
+    #spotlights section:nth-child(3){
+      display: block;
+    }
+    #spotlights section {
+      margin: auto auto;
+      height: 25%;
+      width: 90%;
+    }
+    #join {
+      grid-area: f;
+    }
+    #event {
+      grid-area: a;
+      margin: 0 auto;
+      width: 100%;
+    }
+    #weather {
+      grid-area: d;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
