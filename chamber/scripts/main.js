@@ -13,5 +13,5 @@ hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
 });
     
-document.querySelector("#year"). innerHTML = new Date().getFullYear();
-document.querySelector("#update"). innerHTML = document.lastModified;
+document.querySelector("#year").innerHTML = new Date().getFullYear();
+document.querySelector("#update").innerHTML = document.lastModified;
