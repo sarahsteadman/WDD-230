@@ -18,8 +18,9 @@ h2 {
 #header-box {
   padding: 5px 0;
   display: grid;
-  grid-template: "a b d"1fr
-                 "e e e"1fr / 1fr 3fr 2fr;
+  grid-template: "a b d" 1fr
+                 "e e e" 1em
+                 "f f f" auto/ 1fr 3fr 2fr;
   margin: 0;
   background-color: #ffd26f;
 }
@@ -42,6 +43,9 @@ h2 {
   width: 7vw;
   border-radius: 100%;
 }
+.socials img:hover{
+  border: 4px solid white;
+}
 #right-stuff {
   display: flex;
   grid-area: d;
@@ -59,16 +63,18 @@ h2 {
 }
 nav {
   display: none;
+  grid-area: f;
 }
 nav.responsive {
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   background-color: #fbe8bf;
+  border: 3px solid #fffff4;
   padding: 15px;
-  margin: 0;
+  margin: 30px auto;
 }
 nav.responsive a {
   width: 150px;
@@ -90,6 +96,7 @@ nav.responsive a:hover {
   background-color: #fff9a3;
   padding: 5px 0;
   margin: 0;
+  height: 1em;
 }
 main section {
   height: 300px;
@@ -269,9 +276,12 @@ footer section p{
     #hamButton{
       display: none;
     }
+    nav.responsive{
+      display: none;
+    }
     nav{
-      margin-top: 20px;
       display: inline;
+      margin-top: 20px;
       grid-area: b;
     }
     a{
