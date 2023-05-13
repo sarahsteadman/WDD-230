@@ -282,7 +282,7 @@ footer section p{
       font-size: 2em;
       padding:5px;
     }
-    a:hover{
+    nav a:hover{
       border: 5px double #fffff4;
     }
     main {
