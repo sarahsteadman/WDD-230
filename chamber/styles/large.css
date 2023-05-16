@@ -90,9 +90,13 @@
       height: auto;
       width: 80%;
     }
-    #spotlights section p, #spotlights section h5{
+    #spotlights section h5{
       margin: 0px;
       padding: 10px;
+    }
+    #spotlights section p{
+      margin: 0px;
+      padding-top: 5px;
     }
     #join {
       grid-area: f;
@@ -116,4 +120,11 @@
     #news h4{
       margin: 15px;
     }
+    /* *********************************footer***************************************/
+    footer{
+      grid-template: ". a b c ."auto 
+                     ". a b d ."auto 
+                     "e e e e e"auto /1fr 1fr 2fr 2fr 1fr;
+    }
+    
   }

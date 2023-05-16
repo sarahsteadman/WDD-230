@@ -8,15 +8,15 @@
     display: grid;
     grid-row-gap: 40px;
     grid-template:
-      "a a" 200px
-      "b b" auto
-      "c c" auto
-      "d d" auto
-      "f g" auto/ 1.5fr 1fr;
+      ". a a ." 200px
+      ". b b ." auto
+      ". c c ." auto
+      ". d d ." auto
+      ". f g ." auto/ 5% 1.5fr 1fr 5%;
   }
   main section {
     height: auto;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   #hero {
@@ -43,13 +43,11 @@
   }
   #event {
     grid-area: f;
-    width: 80%;
-    margin-left: 6%;
+    width: auto;
+    margin-right: 10%;
   }
   #weather {
     grid-area: g;
-    width: 100%;
-    margin-left: 0%;
   }
   footer {
     border-top: 1px solid #a31621;
