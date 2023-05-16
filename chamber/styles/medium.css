@@ -9,18 +9,22 @@
     grid-row-gap: 40px;
     grid-template:
       "a a" 200px
-      "b b" 200px
-      "c c" 200px
-      "d d" 200px
-      "f g" 200px/ 1.5fr 1fr;
+      "b b" auto
+      "c c" auto
+      "d d" auto
+      "f g" auto/ 1.5fr 1fr;
   }
   main section {
-    height: 90%;
+    height: auto;
     width: 90%;
     margin: 0 auto;
   }
   #hero {
     grid-area: a;
+  }
+  #hero button{
+    height: 30%;
+    width: 20%;
   }
   #news {
     grid-area: b;
@@ -30,8 +34,9 @@
     display: flex;
   }
   #spotlights section {
-    height: 80%;
+    height: auto;
     width: 45%;
+    margin: 20px auto;
   }
   #join {
     grid-area: d;
@@ -43,7 +48,7 @@
   }
   #weather {
     grid-area: g;
-    width: 83.5%;
+    width: 100%;
     margin-left: 0%;
   }
   footer {
@@ -52,11 +57,13 @@
     grid-template:
       "a b c" auto
       "a b d" auto
-      "e e e" auto/ 1fr 2fr 4fr;
+      "e e e" auto/ 1fr 2fr 2fr;
   }
   footer .logo {
     grid-area: a;
-    margin-left: 30px;
+    margin: auto auto;
+    width:  16vw;
+    height: 16vw;
   }
   #address {
     grid-area: b;
@@ -67,9 +74,9 @@
     grid-area: c;
   }
   iframe {
-    margin: 0 auto;
+    margin: 10px auto;
     grid-area: d;
-    width: 300px;
+    width: 200px;
     height: 100px;
   }
   footer section {
