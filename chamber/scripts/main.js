@@ -11,7 +11,6 @@ const navigation = document.querySelector('nav');
 
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('responsive');
-    console.log("I hear you!");
 });
     
 document.querySelector("#year").innerHTML = new Date().getFullYear();
