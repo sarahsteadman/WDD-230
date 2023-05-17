@@ -18,11 +18,23 @@ h2 {
 #header-box {
   padding: 5px 0;
   display: grid;
-  grid-template: "a b d" 1fr
+  grid-template: "p p p" auto
+                 "a b d" 1fr
                  "e e e" 1em
                  "f f f" auto/ 1fr 3fr 2fr;
   margin: 0;
   background-color: #ffd26f;
+}
+#banner{
+  display: none;
+}
+#banner.show{
+  grid-area: p;
+  background-color: #fffff4;
+  padding: 5px;
+  margin-top: 5px;
+  text-align: center;
+  display: inline;
 }
 .logo {
   grid-area: a;

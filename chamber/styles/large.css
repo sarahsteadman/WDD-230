@@ -8,7 +8,8 @@
     }
     #header-box{
       display: grid;
-      grid-template: "a c b ." auto
+      grid-template: "p p p p"
+                     "a c b ." auto
                      "a c . d" auto
                      "a c . ." auto
                      "e e e e" auto/ 1fr 3fr 3fr 1fr;

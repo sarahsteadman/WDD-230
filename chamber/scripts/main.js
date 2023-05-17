@@ -15,3 +15,10 @@ hamButton.addEventListener('click', () => {
     
 document.querySelector("#year").innerHTML = new Date().getFullYear();
 document.querySelector("#update").innerHTML = document.lastModified;
+
+const banner = document.querySelector('#banner');
+today = now.getDay();
+console.log(today);
+if(today == 2 || today == 1){
+    banner.classList.toggle('show');
+}
