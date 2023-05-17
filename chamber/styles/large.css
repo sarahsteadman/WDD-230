@@ -38,22 +38,23 @@
     }
     #nav-menu{
       display: inline;
-      margin-top: 20px;
       grid-area: b;
-      white-space: nowrap;
-    }
-    #nav-menu, .menu-items{
-      text-align: left;
-      text-decoration: none;
-      font-family: Arial, Helvetica, sans-serif;
-      color: #a31621;
-      font-size: 2.4vw;
-
       padding:5px;
       margin: 0px;
+      background-color: #ffd26f;
+      border: none;
     }
-    nav a:hover{
-      border: 5px double #fffff4;
+    #nav-menu ul{
+      display: inline;
+      white-space: nowrap;
+    }
+    #nav-menu .menu-items{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 2.4vw;
+      padding:5px;
+    }
+    .menu-items:hover{
+      border: 5px double #a31621;
     }
     main {
       margin: 20px;

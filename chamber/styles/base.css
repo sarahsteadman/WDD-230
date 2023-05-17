@@ -79,11 +79,14 @@ nav {
   display: none;
   grid-area: f;
 }
-nav.responsive {
-  width: 70%;
+nav ul{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+nav.responsive {
+  display:block;
+  width: 70%;
   justify-content: center;
   background-color: #fbe8bf;
   border: 3px solid #fffff4;
