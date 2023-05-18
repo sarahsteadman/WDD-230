@@ -197,6 +197,7 @@ p{
   height: 400px;
   border: 1px solid #ffd26f;
 }
+/*********************************************** Footer ************************************************/
 footer {
   margin-top: 20px;
 }
@@ -212,13 +213,13 @@ footer .logo {
 footer p {
   margin: 10px auto;
   text-align: center;
-  line-height: 25px;
+  font-size: small;
 }
 iframe {
   display: block;
   margin: 10px auto;
   width: 50vw;
-  height: 300px;
+  height: 200px;
 }
 footer section{
   background-color: #ffd26f;

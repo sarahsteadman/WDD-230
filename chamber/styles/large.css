@@ -6,11 +6,14 @@
     h2{
       font-size: 2em;
     }
+    p{
+      font-size: 25px;
+    }
     #header-box{
       display: grid;
       grid-template: "p p p p"
-                     "a c b ." auto
-                     "a c . d" auto
+                     "a c . ." auto
+                     "a c b d" auto
                      "a c . ." auto
                      "e e e e" auto/ 1fr 3fr 3fr 1fr;
     }
@@ -20,6 +23,8 @@
       grid-area: a;
     }
     #time{
+      font-size: 25px;
+      padding: 15px;
       grid-area: e;
     }
     #headers{
@@ -40,13 +45,16 @@
       display: inline;
       grid-area: b;
       padding:5px;
-      margin: 0px;
       background-color: #ffd26f;
       border: none;
     }
     #nav-menu ul{
+      position: absolute;
+      top: 50px;
+      padding-left: 0;
       display: inline;
       white-space: nowrap;
+
     }
     #nav-menu .menu-items{
       text-align: left;
@@ -131,5 +139,8 @@
                      ". a b d ."auto 
                      "e e e e e"auto /1fr 1fr 2fr 2fr 1fr;
     }
-    
+    footer p{
+      padding-top: 10px;
+      font-size: 20px;
+    }
   }
