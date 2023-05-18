@@ -22,7 +22,7 @@
   #hero {
     grid-area: a;
   }
-  #hero button{
+  #hero button {
     height: 30%;
     width: 20%;
   }
@@ -53,14 +53,15 @@
     border-top: 1px solid #a31621;
     display: grid;
     grid-template:
-      "a b c" auto
-      "a b d" auto
-      "e e e" auto/ 1fr 2fr 2fr;
+      ". a b c ." auto
+      ". a b d ." auto
+      "e e e e e" auto / 2fr 1fr 2fr 2fr 2fr;
   }
+
   footer .logo {
     grid-area: a;
     margin: auto auto;
-    width:  16vw;
+    width: 16vw;
     height: 16vw;
   }
   #address {
@@ -81,11 +82,15 @@
     grid-area: e;
     display: flex;
     justify-content: center;
+    padding-top: 10px;
+    font-size: 20px;
   }
   footer section p {
     display: inline;
     padding-right: 5px;
     padding-left: 5px;
+    font-size: 12px;
+    padding-bottom: 5px;
   }
   footer section p:nth-child(2),
   footer section p:nth-child(3),

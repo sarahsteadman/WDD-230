@@ -1,5 +1,5 @@
 
-  @media only screen and (min-width: 1130px) {
+  @media only screen and (min-width: 1140px) {
     h1{
       font-size: 3em;
     }
@@ -7,7 +7,7 @@
       font-size: 2em;
     }
     p{
-      font-size: 25px;
+      font-size: 20px;
     }
     #header-box{
       display: grid;
@@ -24,7 +24,7 @@
     }
     #time{
       font-size: 25px;
-      padding: 15px;
+      padding: 10px;
       grid-area: e;
     }
     #headers{
@@ -134,13 +134,12 @@
       margin: 15px;
     }
     /* *********************************footer***************************************/
-    footer{
-      grid-template: ". a b c ."auto 
-                     ". a b d ."auto 
-                     "e e e e e"auto /1fr 1fr 2fr 2fr 1fr;
-    }
     footer p{
       padding-top: 10px;
       font-size: 20px;
+    }
+    footer section p{
+      font-size: 20px;
+      padding-bottom: 5px;
     }
   }
