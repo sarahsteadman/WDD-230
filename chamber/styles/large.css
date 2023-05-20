@@ -11,7 +11,7 @@
     }
     #header-box{
       display: grid;
-      grid-template: "p p p p"
+      grid-template: "p p p p" auto
                      "a c . ." auto
                      "a c b d" auto
                      "a c . ." auto
