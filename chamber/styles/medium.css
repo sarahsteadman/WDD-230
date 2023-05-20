@@ -69,7 +69,7 @@
     margin: auto 0;
   }
   #email {
-    margin-top: auto;
+    margin-top: 10px;
     grid-area: c;
   }
   iframe {
@@ -82,7 +82,7 @@
     grid-area: e;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 20px;
   }
   footer section p {
