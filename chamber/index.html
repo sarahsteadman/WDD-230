@@ -53,11 +53,12 @@
     <main>
       <section id="hero">
         <h3>Welcome to Genovia!</h3>
-        <figure>
-          <img src="images/cat.jfif" alt="team-hands" sizes="100vw" 
-               srcset="images/cheese.jfif 650w,
-                       images/pears.jfif 1140w">
-        </figure>
+        <picture>
+         <source media="(max-width: 650px)"  srcset="images/temp-hero-small.jpg">          
+         <source media="(max-width: 1140px)" srcset="images/temp-hero-medium.jpg">          
+         <source media="(max-width: 2000px)" srcset="images/temp-hero-large.jpg">
+         <img src="images/temp-hero.jpg">            
+        </picture>
         <button>Join</button>
       </section>
       <section id="event">
