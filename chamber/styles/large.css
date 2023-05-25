@@ -148,7 +148,6 @@
     #weather p{
       margin: 2px;
       height: auto;
-      color: orange;
     }
     #weather p:nth-child(3){
       grid-row:c;
