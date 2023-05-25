@@ -45,16 +45,23 @@
     grid-area: f;
     width: auto;
     margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #event h4, #event h5{
+    margin:5px;
   }
   #weather {
     grid-area: g;
   }
   footer {
+    padding: 15px;
     border-top: 1px solid #a31621;
     display: grid;
     grid-template:
-      ". a b c ." auto
-      ". a b d ." auto
+      ". a b c ." 10vw
+      ". a b d ." 9vw
       "e e e e e" auto / 2fr 1fr 2fr 2fr 2fr;
   }
 
@@ -66,17 +73,17 @@
   }
   #address {
     grid-area: b;
-    margin: auto 0;
+    margin: auto;
+    width: 200px;
   }
   #email {
-    margin-top: 10px;
+    margin-top: auto;
     grid-area: c;
   }
-  iframe {
+  .location {
     margin: 10px auto;
     grid-area: d;
     width: 200px;
-    height: 100px;
   }
   footer section {
     grid-area: e;

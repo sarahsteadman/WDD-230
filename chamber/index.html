@@ -22,7 +22,7 @@
       <section id="header-box">
         <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
         <img
-          src="images/logo.png"
+          src="images/logo.webp"
           alt="logo for Genovia Chamber of Commerce"
           class="logo"
         >
@@ -55,8 +55,8 @@
         <h3>Welcome to Genovia!</h3>
         <picture>
          <source media="(max-width: 650px)"  srcset="images/temp-hero-small.jpg">          
-         <source media="(max-width: 1140px)" srcset="images/temp-hero-medium.jpg">          
-         <source media="(max-width: 2000px)" srcset="images/temp-hero-large.jpg">
+         <source media="(max-width: 1300px)" srcset="images/temp-hero-medium.jpg">          
+         <source media="(max-width: 2300px)" srcset="images/temp-hero-large.jpg">
          <img src="images/temp-hero.jpg">            
         </picture>
         <button>Join</button>
@@ -71,6 +71,9 @@
       <section id="weather">
         <h4>Weather</h4>
         <img src="images/weather.png" alt="weather stand in">
+        <p>Temperature<br><span id="temperature">8</span>C</p>
+        <p>Wind Speed<br><span id="speed">8</span>km/h</p>
+        <p>Wind Chill<br><span id="chill"></span></p>        
       </section>
       <section id="news">
         <h4>News Release</h4>
@@ -83,19 +86,19 @@
       <section id="spotlights">
         <section>
           <h5>Sweet Cheese</h5>
-          <img src="images/cheese.jfif" alt="Cheese">
+          <img src="images/cheese.jpg" alt="Cheese">
           <p>Don't knock it til you try it</p>
           <p><small>info@GenovianBusiness.com<br> 999-999-9999 | Website</small></p>
         </section>
         <section>
           <h5>Famous Pears</h5>
-          <img src="images/pears.jfif" alt="Pears">
+          <img src="images/pears.jpg" alt="Pears">
           <p>The most succulent pears in Genovia</p>
           <p><small>info@GenovianBusiness.com<br> 999-999-9999 | Website</small></p>
         </section>
         <section>
           <h5>Fancy Cats</h5>
-          <img src="images/cat.jfif" alt="Persian Cat">
+          <img src="images/cat.jpg" alt="Persian Cat">
           <p>Look like the queen!</p>
           <p><small>info@GenovianBusiness.com<br> 999-999-9999 | Website</small></p>
         </section>
@@ -113,9 +116,7 @@
         Diary, Genovia 20297
       </p>
       <p id="email">info@GenoviaCOC.org <br >(444) 889-9900</p>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11474546.594024634!2d18.66115538727083!3d50.0274367764004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1683773385369!5m2!1sen!2sus"
-      ></iframe>
+      <a class="location" href="https://www.google.com/maps/@46.6418625,1.717057,6.71z?hl=en">Location Map</a>
       <section>
         <p>&copy; <span id="year"></span> Genovia Chamber</p>
         <p>Sarah Steadman</p>
@@ -124,5 +125,6 @@
       </section>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>

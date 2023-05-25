@@ -1,7 +1,7 @@
 body {
   background-color: #fffff4;
 }
-p {
+p, a {
   font-family: Arial, Helvetica, sans-serif;
 }
 h1,
@@ -175,6 +175,7 @@ p{
 }
 #weather img{
   margin-bottom: 20px;
+  border: 2px solid #ffd26f;
 }
 #join button{
   display: block;
@@ -210,13 +211,17 @@ footer .logo {
 footer p {
   margin: 10px auto;
   text-align: center;
-  font-size: small;
 }
-iframe {
+.location {
   display: block;
   margin: 10px auto;
+  text-align: center;
   width: 50vw;
-  height: 200px;
+  color: black;
+  font-size: 22px;
+}
+.location:hover{
+  color:#a31621;
 }
 footer section{
   background-color: #ffd26f;

@@ -1,5 +1,5 @@
 
-  @media only screen and (min-width: 1140px) {
+  @media only screen and (min-width: 1300px) {
     h1{
       font-size: 3em;
     }
@@ -75,7 +75,7 @@
       grid-template:
         "a b c" 300px
         "d b c" 300px
-        "f g c" 300px / 1fr 2fr 1fr
+        "f g c" 300px / 1fr 2fr 1fr;
     }
     main section{
       width: 100%;
@@ -123,12 +123,41 @@
       width: 100%;
     }
     #weather {
+      padding: 10px;
       grid-area: d;
       width: 100%;
       margin: 0 auto;
+      display: grid;
+      grid-template: "a a" auto
+                     "b c" auto
+                     "b d" auto
+                     "b e" auto / 50% 60%;
+    }
+    #weather img{
+      width: 100%;
+      height: auto;
+      margin: auto 0;
+      grid-row: b;
     }
     #weather h4{
-      margin: 18px;
+      grid-row: a;
+      column-span: all;
+      width: 200%;
+      margin: 0;
+    }
+    #weather p{
+      margin: 2px;
+      height: auto;
+      color: orange;
+    }
+    #weather p:nth-child(3){
+      grid-row:c;
+    }
+    #weather p:nth-child(4){
+      grid-row:d;
+    }
+    #weather p:nth-child(5){
+      grid-row:e;
     }
     #news h4{
       margin: 15px;
@@ -141,5 +170,8 @@
     footer section p{
       font-size: 20px;
       padding-bottom: 5px;
+    }
+    .location{
+      font-size: 22px;
     }
   }
