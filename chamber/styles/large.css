@@ -110,6 +110,7 @@
     #spotlights section p{
       margin: 0px;
       padding-top: 5px;
+      font-size: 1.25em;
     }
     #join {
       grid-area: f;
@@ -123,20 +124,18 @@
       width: 100%;
     }
     #weather {
-      padding: 10px;
       grid-area: d;
-      width: 100%;
       margin: 0 auto;
       display: grid;
       grid-template: "a a" auto
                      "b c" auto
                      "b d" auto
-                     "b e" auto / 50% 60%;
+                     "b e" auto / 50% 50%;
     }
     #weather img{
-      width: 100%;
+      width: 90%;
       height: auto;
-      margin: auto 0;
+      margin: auto 5px;
       grid-row: b;
     }
     #weather h4{
@@ -144,10 +143,12 @@
       column-span: all;
       width: 200%;
       margin: 0;
+      padding: 10px;
     }
     #weather p{
       margin: 2px;
       height: auto;
+      font-size: 1.1em;
     }
     #weather p:nth-child(3){
       grid-row:c;
