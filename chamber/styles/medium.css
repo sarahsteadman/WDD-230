@@ -104,4 +104,29 @@
   footer section p:nth-child(4) {
     border-left: 1px solid #a31621;
   }
+
+/* ************************************************discover************************************************** */
+.discover{
+  display: grid;
+  grid-template: "a b" auto
+                 "a c" auto/ 1fr 1fr;
+}
+.discover figure{
+  grid-area: a;
+  margin: auto auto;
+  width: 80%;
+}
+.discover figure img{
+  width: 80%;
+}
+.discover figure img:hover{
+  opacity: .5;
+}
+.discover h4{
+  grid-area: b;
+  margin-top: auto;
+}
+.discover p{
+  grid-area: c;
+}
 }

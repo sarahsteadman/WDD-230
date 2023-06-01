@@ -237,3 +237,24 @@ footer section p{
   font-size: smaller;
   margin: 2px;
 }
+/* ************************************************discover************************************************** */
+#discover-main{
+  display: flex;
+  flex-direction: column;
+  padding: 3vw;
+}
+#discover-main h2{
+  text-align: center;
+}
+.discover{
+  padding: 20px;
+}
+.discover h4{
+margin:5px;
+}
+figcaption{
+  text-align: center;
+  font-size: 1em;
+  padding: 3px;
+  font-style: italic;
+}
