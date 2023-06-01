@@ -7,9 +7,9 @@ function loadImages(img){
     }
     img.src = src;
 }
-const imgO = {
-    threshold: 0,
-    rootMargin: "0px 0px -300px 0px"
+const imgOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px 50px 0px"
 };
 const imgObserver = new IntersectionObserver((entries, imgObserver) =>{
     entries.forEach(entry =>{
@@ -21,7 +21,7 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) =>{
             imgObserver.unobserve(entry.target);
         }
     })
-})
+}, imgOptions);
 
 
 images.forEach(image => {

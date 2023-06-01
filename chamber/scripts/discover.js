@@ -21,7 +21,7 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) =>{
             imgObserver.unobserve(entry.target);
         }
     })
-})
+}, imgO);
 
 
 images.forEach(image => {
