@@ -13,11 +13,7 @@ img {
   border: 10px dotted black;
   padding: 2px;
 }
-/* img[data-src] {
+.dog{
   filter: blur(0.2em);
 }
 
-.dog {
-  filter: blur(0em);
-  transition: filter 0.5s;
-} */

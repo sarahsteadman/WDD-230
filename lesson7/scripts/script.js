@@ -7,6 +7,7 @@ function loadImages(img) {
   }
 
   img.src = src;
+  setTimeout(() => { img.classList.remove("dog"); }, 500);
 }
 const imgOptions = {
   threshold: 1,
