@@ -64,8 +64,8 @@
       font-size: 2.4vw;
       padding:5px;
     }
-    .menu-items:hover{
-      border: 5px double #a31621;
+    #nav-menu .menu-items:hover{
+      color: navy;
     }
     main {
       margin: 20px;

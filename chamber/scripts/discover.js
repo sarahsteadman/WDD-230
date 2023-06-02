@@ -1,3 +1,4 @@
+// Lazy Loading
 let images = document.querySelectorAll("img[data-src]");
 
 function loadImages(img){
@@ -28,4 +29,18 @@ images.forEach(image => {
     imgObserver.observe(image);
 });
 
+// Days since last visit
+const msToDays = 84600000;
+let paragraph = document.querySelector("#visit");
+let today = Date.now();
+let lastVisit = Number(window.localStorage.getItem("visit-day")) || 0;
 
+if (lastVisit === 0){
+    paragraph.innerHTML = "This is your first time visiting our page!";
+}
+else {
+    let difference = Math.round((today - lastVisit) / msToDays);
+    paragraph.innerHTML = "It has been " + difference + " days since your last visit!";
+}
+
+localStorage.setItem("visit-day", today);

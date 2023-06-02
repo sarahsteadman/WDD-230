@@ -2,16 +2,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgb(216, 252, 240);
+}
+h1{
+  text-align: center;
 }
 img {
   width: 300px;
   margin: 20px auto;
+  border: 10px dotted black;
+  padding: 2px;
 }
-article img[data-src] {
+/* img[data-src] {
   filter: blur(0.2em);
 }
 
-article img {
+.dog {
   filter: blur(0em);
   transition: filter 0.5s;
-}
+} */
