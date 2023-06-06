@@ -1,0 +1,24 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(188, 249, 249);
+    display: grid;
+}
+table{
+    margin: 0px auto;
+}
+th{
+    margin:-1;
+    width: 12vw;
+    height: 3vw;
+    padding: 5px;
+}
+tr{
+    background-color: white;
+}
+thead tr, tbody tr:nth-child(2){
+    background-color: bisque;
+}
+caption{
+    caption-side: bottom;
+    padding: 5px;
+}
