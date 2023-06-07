@@ -258,3 +258,58 @@ figcaption{
   padding: 3px;
   font-style: italic;
 }
+/*************************************** FORM ********************************************/
+#join, fieldset{
+  display: flex;
+  flex-direction: column;
+}
+#join h2{
+  text-align: center;
+}
+legend{
+  font-family: "Raleway", sans-serif;
+  font-size: 1.7rem;
+  color: #a31621;
+  padding: 5px;
+  font-weight: bold;
+}
+.submitBtn{
+  margin: 10px auto;
+  color:#fffff4;
+  background-color: #a31621;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 150px;
+}
+fieldset{
+  margin: 10px;
+  border: 2px solid #ffd26f;
+}
+label{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 0px 15px 0px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+#member-level label{
+  display: initial;
+  font-size: 1.9;
+}
+.top input{
+  font-size: 1.3rem;
+  border-radius: 4px;
+  padding: .75rem;
+  border: 1px solid gray;
+}
+form label.top input:required{
+  border-left: red solid 6px;
+}
+form label.top input:required:valid{
+  border-left: green solid 6px;
+
+}

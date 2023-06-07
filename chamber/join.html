@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Genovia Chamber of Commerce</title>
+    <meta name="description" content="Genovia Chamber of Commerce Home Page." >
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css" >
+    <link rel="stylesheet" href="styles/large.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <header>
+      <section id="header-box">
+        <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+        <img
+          src="images/logo.webp"
+          alt="logo for Genovia Chamber of Commerce"
+          class="logo"
+        >
+        <section id="headers">
+          <h1>Genovia</h1>
+          <h2>Chamber of Commerce</h2>
+        </section>
+        <div id="right-stuff">
+          <div class="socials">
+            <a href="https://facebook.com" target="_blank">
+              <img src="images/facebook.png" alt="facebook icon" >
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <img src="images/instagram.png" alt="instagram icon" >
+            </a>
+          </div>
+          <button id="hamButton">&#9776;</button>
+        </div>
+        <nav id="nav-menu">
+            <a class="menu-items" href="discover.html">Discover</a>
+            <a class="menu-items" href="index.html">Directory</a>
+            <a class="menu-items" href="index.html">Join</a>
+            <a class="menu-items" href="index.html">Contact</a>
+        </nav>
+        <p id="time"></p>
+      </section>
+    </header>
+    <main id="join">
+        <h2>Join the Genovian Chamber of Commerce</h2>
+        <form method="get" action="thanks.html">
+            <fieldset id="applicant">
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position <input type="text" name="bposition"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="abc@email.com" required></label>
+                <label class="top">Cell Phone* <input type="tel" name="cell" required></label>
+            </fieldset>
+            <fieldset id="business">
+                <legend>Business Information</legend>
+                <label class="top">Business Name*<input type="text" name="bname" required></label>
+                <label class="top">Business Description<input type="text" name="bdescription"></label>
+            </fieldset>
+            <fieldset id="member-level">
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership" value="np">Non Profit Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
+            </fieldset>
+            <input type="submit" value="Join" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+      <img
+        src="images/logo.webp"
+        alt="logo for Genovia Chamber of Commerce"
+        class="logo"
+      >
+      <p id="address">
+        Genovia Chamber of Commerce<br >
+        1082 Pear Tree Rd<br >
+        Diary, Genovia 20297
+      </p>
+      <p id="email">info@GenoviaCOC.org <br >(444) 889-9900</p>
+      <a class="location" href="https://www.google.com/maps/@46.6418625,1.717057,6.71z?hl=en">Location Map</a>
+      <section>
+        <p>&copy; <span id="year"></span> Genovia Chamber</p>
+        <p>Sarah Steadman</p>
+        <p>WDD 230 Project</p>
+        <p>Last Updated <span id="update"></span></p>
+      </section>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/windchill.js"></script>
+  </body>
+</html>

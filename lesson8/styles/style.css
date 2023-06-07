@@ -1,10 +1,11 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(188, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 168, 127);
     display: grid;
+    font-size: 1.3rem;
 }
 table{
-    margin: 0px auto;
+    margin: 30px auto;
 }
 th{
     margin:-1;
@@ -13,12 +14,13 @@ th{
     padding: 5px;
 }
 tr{
-    background-color: white;
+    background-color: rgb(250, 244, 231);
 }
 thead tr, tbody tr:nth-child(2){
-    background-color: bisque;
+    background-color: rgb(255, 228, 196);
 }
 caption{
     caption-side: bottom;
     padding: 5px;
+    text-shadow: 0 0 3px rgb(250, 244, 231);
 }
