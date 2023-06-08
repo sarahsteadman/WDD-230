@@ -274,7 +274,8 @@ legend{
   font-weight: bold;
 }
 .submitBtn{
-  margin: 10px auto;
+  display: block;
+  margin: 40px auto;
   color:#fffff4;
   background-color: #a31621;
   font-family: "Raleway", sans-serif;
@@ -283,6 +284,10 @@ legend{
   border-radius: 10px;
   height: 60px;
   width: 150px;
+}
+.submitBtn:hover{
+  background-color: #ffd26f;
+  color: #a31621;
 }
 fieldset{
   margin: 10px;
@@ -311,5 +316,16 @@ form label.top input:required{
 }
 form label.top input:required:valid{
   border-left: green solid 6px;
-
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+/* ************************************Thank You************************************** */
+#thank h2{
+  text-align: center;
+  margin-top: 15px;
+}
+#thank{
+  margin-top: 50px;
+  height: fit-content;
 }

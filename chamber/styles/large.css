@@ -203,7 +203,7 @@
       margin: 0px;
     }
     #member-level label{
-      font-size: 1.6rem;
+      font-size: 1.35rem;
       width: 63%;
       margin: auto 15%;
       background-color: #fff9a3;
@@ -213,7 +213,12 @@
     #member-level label:hover{
       background-color: #ffd26f;
     }
-    input[type="radio"] {
-      margin-right: 10px;
+    /* ************************************Thank You************************************** */
+    #thank-main{
+      display:initial;
+    }
+    #thank{
+      width: 40%;
+      margin: 100px auto;
     }
   }
