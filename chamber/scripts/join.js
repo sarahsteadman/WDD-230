@@ -1,4 +1,5 @@
 let position = document.querySelector('#position-input');
+document.querySelector("#date-time").value = new Date();
 
 position.addEventListener("input", (event) => {
   if (!(/^[A-Za-z\s\-]*$/.test(position.value))) {

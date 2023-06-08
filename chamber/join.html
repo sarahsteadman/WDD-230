@@ -52,12 +52,12 @@
     </header>
     <main id="join">
         <h2>Join the Genovian Chamber of Commerce</h2>
-        <form method="get" action="thanks.html">
+        <form method="get" action="thankyou.html">
             <fieldset id="applicant">
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top" id="position">Business Position <input id="position-input" type="text" name="bposition" minlength="7"></label>
+                <label class="top" id="position">Business Position Title<input id="position-input" type="text" name="bposition" minlength="7"></label>
                 <label class="top">Email* <input type="email" name="email" placeholder="abc@email.com" required></label>
                 <label class="top">Cell Phone* <input type="tel" name="cell" required></label>
             </fieldset>
@@ -73,7 +73,7 @@
                 <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
             </fieldset>
-            <input type="hidden" name="date-time">
+            <input id="date-time" type="hidden" name="date-time" value="">
             <input type="submit" value="Join" class="submitBtn">
         </form>
     </main>
