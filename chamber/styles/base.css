@@ -319,6 +319,19 @@ form label.top input:required:valid{
 input[type="radio"] {
   margin-right: 10px;
 }
+th {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ffd26f;
+}
+tbody tr:nth-child(1),
+tbody tr:nth-child(3) {
+  background-color: #fff9a3;
+}
+#benefits{
+  margin-bottom: 20px;
+}
 /* ************************************Thank You************************************** */
 #thank h2{
   text-align: center;
