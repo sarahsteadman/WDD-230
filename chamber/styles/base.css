@@ -347,26 +347,29 @@ tbody tr:nth-child(3) {
 }
 #directory-main div{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: 10px 40px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: 10px 0px;
 }
 #directory-main section{
-  margin: 30px;
-  width: 300px;
+  display: block;
+  margin: 30px auto;
+  width: 250px;
   height: fit-content;
   border: 8px double #a31621;
 }
 #directory-main p{
   margin: 8px;
+  font-size: 15px;
 }
 #directory-main img{
   border: 5px solid #ffd26f;
-  height: 133px;
+  max-height: 100px;
+  width: auto;
 }
 #directory-main h2{
   text-align: center;
-  margin: 30px;
+  margin: 20px;
 }
 #directory-main div h2{
-  font-size: 28px;
+  font-size: 25px;
 }
