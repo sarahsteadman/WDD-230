@@ -1,0 +1,76 @@
+{
+    "businesses":[
+    {        
+        "name":"Sweet Cheese",
+        "img": "images/cheese.jpg",
+        "address":"800 String Rd",
+        "phone": "999-999-9999",
+        "email":"Info@SweetCheese.com",
+        "membership":"Gold"
+    },
+    {        
+        "name":"Famous Pears",
+        "img": "./images/pears.jpg",
+        "address":"55 Succulent Ln",
+        "phone": "999-999-9999",
+        "email":"Info@GenovianPear.com",
+        "membership":"Gold"
+    },
+    {        
+        "name":"Fancy Cats",
+        "img": "./images/cat.jpg",
+        "address":"400 meow St",
+        "phone": "999-999-9999",
+        "email":"Info@GenovianCat.com",
+        "membership":"Gold"
+    },
+    {        
+        "name":"Fat Louie Cafe",
+        "img": "./images/fat-louie.png",
+        "address":"300 meow St",
+        "phone": "999-999-9999",
+        "email":"Info@GenovianCat.com",
+        "membership":"Gold"
+    },
+    {        
+        "name": "Oil inc",
+        "img": "./images/olive-press.jpg",
+        "address":"3311 Olive St",
+        "phone": "999-999-9999",
+        "email":"Info@Olive.com",
+        "membership":"Silver"
+    },
+    {        
+        "name":"Paolo's",
+        "img": "./images/paolo.jpg",
+        "address":"11 Beauty Ln",
+        "phone": "999-999-9999",
+        "email":"Vanessa@Paolos.com",
+        "membership":"Gold"
+    },
+    {        
+        "name":"The Bad Baron's",
+        "img": "images/baron.jfif",
+        "address":"22 Baron Rd",
+        "phone": "999-999-9999",
+        "email":"food@Baron.com",
+        "membership":"Bronze"
+    },
+    {        
+        "name":"Lily's Boutique",
+        "img": "./images/lily.jpeg",
+        "address":"22 Royal Lane",
+        "phone": "999-999-9999",
+        "email":"Lily@Royal.com",
+        "membership":"Non-Profit"
+    },
+    {        
+        "name": "Royal Dancing",
+        "img": "./images/royal-dance.jpg",
+        "address": "82 Salsa St",
+        "phone": "999-999-9999",
+        "email":"Roberto@Dance.com",
+        "membership":"Silver"
+    }
+    ]
+}

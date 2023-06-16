@@ -341,3 +341,29 @@ tbody tr:nth-child(3) {
   margin-top: 50px;
   height: fit-content;
 }
+/* **************************************Directory************************************ */
+#directory-main{
+  display: block;
+}
+#directory-main div{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 10px 40px;
+}
+#directory-main section{
+  margin: 30px;
+  width: 350px;
+  height: fit-content;
+  border: 8px double #a31621;
+}
+#directory-main p{
+  margin: 8px;
+}
+#directory-main img{
+  border: 5px solid #ffd26f;
+  height: 133px;
+}
+#directory-main h2{
+  text-align: center;
+  margin: 30px;
+}
