@@ -352,7 +352,7 @@ tbody tr:nth-child(3) {
 }
 #directory-main section{
   margin: 30px;
-  width: 350px;
+  width: 300px;
   height: fit-content;
   border: 8px double #a31621;
 }
@@ -366,4 +366,7 @@ tbody tr:nth-child(3) {
 #directory-main h2{
   text-align: center;
   margin: 30px;
+}
+#directory-main div h2{
+  font-size: 28px;
 }
