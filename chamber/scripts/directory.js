@@ -1,7 +1,22 @@
-const file = './directory.json';
+// ///////////////////////////////////////////////Buttons/////////////////////////////////////////////////////////
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const cards = document.querySelector('div.cards');
+
+gridbutton.addEventListener("click", displayGrid);
+listbutton.addEventListener("click", displayList);
+
+function displayMethod(d1,d2) {
+	cards.classList.add(d1);
+	cards.classList.remove(d2);
+}
+function displayList(){displayMethod("list","grid")}
+function displayGrid(){displayMethod("grid","list")}
+
+//////////////////////////////////////////////////Cards///////////////////////////////////////////////////////////
+const file = 'scripts/directory.json';
 
 const displayBusinesses = (businesses) =>{
-    const cards = document.querySelector('div.cards');
 
     businesses.forEach((business) => {
         let card = document.createElement('section');
@@ -14,18 +29,22 @@ const displayBusinesses = (businesses) =>{
         image.setAttribute('src', business.img);
         image.setAttribute('alt',  `image of ${business.name}`);
         image.setAttribute('loading', 'lazy');
-
+        
+        p.setAttribute('class', 'address');
+        
+        
         h2.textContent = `${business.name}`
         p.textContent = `Address: ${business.address}`
         p2.textContent = `Phone: ${business.phone}`
         p3.textContent = `Email: ${business.email}`
-
+        
         card.appendChild(h2);
         card.appendChild(image)
         card.appendChild(p);
         card.appendChild(p2);
         card.appendChild(p3);
         cards.appendChild(card);
+        
     })
 }
 

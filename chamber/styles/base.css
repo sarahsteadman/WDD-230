@@ -66,7 +66,7 @@ h2 {
   align-items: center;
   justify-content: right;
 }
-#hamButton {
+#hamButton{
   width: fit-content;
   font-size: 1.5rem;
   padding: 0.5rem;
@@ -345,10 +345,58 @@ tbody tr:nth-child(3) {
 #directory-main{
   display: block;
 }
+#directory-main #buttons{
+  display: flex;
+  margin: 0 auto;
+  width:100px;
+}
+#grid,#list{
+  margin: 0 auto;
+  width: 43px;
+  height: 41px;
+  border: 3px solid #a31621;
+  background-color: #fffff4;
+  color:#a31621;
+  font-size: 30px;
+}
+#grid:hover,#list:hover{
+  background-color: #fbe8bf;
+}
 #directory-main div{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   margin: 10px 0px;
+}
+#directory-main .list{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+#directory-main .list section{
+  padding: 12px 0px 12px 5px;
+  margin: 0px;
+  border: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#directory-main .list section:nth-child(odd){
+background-color: #fff9a3;
+}
+#directory-main .list .address{
+display: none;
+}
+#directory-main .list section p, #directory-main .list section h2{
+  display: block;
+  width: 300px;
+  margin: 0px;
+  text-align: left;
+  font-size: 11px;
+}
+#directory-main .list section h2{
+  color: black;
+  font-weight: normal;
+  width: 180px;
 }
 #directory-main section{
   display: block;
@@ -361,9 +409,12 @@ tbody tr:nth-child(3) {
   margin: 8px;
   font-size: 15px;
 }
-#directory-main img{
+.list img{
+  display: none;
+}
+#directory-main div img{
   border: 5px solid #ffd26f;
-  max-height: 100px;
+  height: 100px;
   width: auto;
 }
 #directory-main h2{
