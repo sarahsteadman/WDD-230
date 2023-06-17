@@ -4,6 +4,7 @@
         "name":"Sweet Cheese",
         "img": "images/cheese.jpg",
         "address":"800 String Rd",
+        "website":"GenovianCheese.com",
         "phone": "999-999-9999",
         "email":"Info@SweetCheese.com",
         "membership":"Gold"
@@ -12,6 +13,7 @@
         "name":"Famous Pears",
         "img": "./images/pears.jpg",
         "address":"55 Succulent Ln",
+        "website":"GenovianPears.com",
         "phone": "999-999-9999",
         "email":"Info@GenovianPear.com",
         "membership":"Gold"
@@ -20,6 +22,7 @@
         "name":"Fancy Cats",
         "img": "./images/cat.jpg",
         "address":"400 meow St",
+        "website":"GenovianCats.com",
         "phone": "999-999-9999",
         "email":"Info@GenovianCat.com",
         "membership":"Gold"
@@ -28,14 +31,16 @@
         "name":"Fat Louie Cafe",
         "img": "./images/fat-louie.png",
         "address":"300 meow St",
+        "website":"GenovianCafe.com",
         "phone": "999-999-9999",
         "email":"Info@GenovianCat.com",
         "membership":"Gold"
     },
     {        
-        "name": "Oil inc",
+        "name": "Olive inc",
         "img": "./images/olive-press.jpg",
         "address":"3311 Olive St",
+        "website":"GenovianOlive.com",
         "phone": "999-999-9999",
         "email":"Info@Olive.com",
         "membership":"Silver"
@@ -44,6 +49,7 @@
         "name":"Paolo's",
         "img": "./images/paolo.jpg",
         "address":"11 Beauty Ln",
+        "website":"GenovianHair.com",
         "phone": "999-999-9999",
         "email":"Vanessa@Paolos.com",
         "membership":"Gold"
@@ -52,6 +58,7 @@
         "name":"The Bad Baron's",
         "img": "images/baron.jfif",
         "address":"22 Baron Rd",
+        "website":"GenovianFood.com",
         "phone": "999-999-9999",
         "email":"food@Baron.com",
         "membership":"Bronze"
@@ -60,6 +67,7 @@
         "name":"Lily's Boutique",
         "img": "./images/lily.jpeg",
         "address":"22 Royal Lane",
+        "website":"GenovianBoutique.com",
         "phone": "999-999-9999",
         "email":"Lily@Royal.com",
         "membership":"Non-Profit"
@@ -68,6 +76,7 @@
         "name": "Royal Dancing",
         "img": "./images/royal-dance.jpg",
         "address": "82 Salsa St",
+        "website":"GenovianDancing.com",
         "phone": "999-999-9999",
         "email":"Roberto@Dance.com",
         "membership":"Silver"

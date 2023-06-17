@@ -134,9 +134,6 @@
   grid-area: a;
 }
 /* *************************************Directory*************************************** */
-#directory-main .list .address{
-  display: block;
-}
 #directory-main .list section p, #directory-main .list section h2{
   font-size: 13px;
 }

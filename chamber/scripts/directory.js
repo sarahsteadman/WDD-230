@@ -25,24 +25,29 @@ const displayBusinesses = (businesses) =>{
         let p = document.createElement('p');
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
+        let p4 = document.createElement('p');
+        
 
         image.setAttribute('src', business.img);
         image.setAttribute('alt',  `image of ${business.name}`);
         image.setAttribute('loading', 'lazy');
         
         p.setAttribute('class', 'address');
+        p4.setAttribute('class', 'address');
         
         
         h2.textContent = `${business.name}`
         p.textContent = `Address: ${business.address}`
         p2.textContent = `Phone: ${business.phone}`
         p3.textContent = `Email: ${business.email}`
+        p4.textContent = `Website: ${business.website}`
         
         card.appendChild(h2);
         card.appendChild(image)
         card.appendChild(p);
         card.appendChild(p2);
         card.appendChild(p3);
+        card.appendChild(p4);
         cards.appendChild(card);
         
     })

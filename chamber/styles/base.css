@@ -401,7 +401,7 @@ display: none;
 #directory-main section{
   display: block;
   margin: 30px auto;
-  width: 250px;
+  width: 270px;
   height: fit-content;
   border: 8px double #a31621;
 }
