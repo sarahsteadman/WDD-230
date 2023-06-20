@@ -127,34 +127,38 @@
     margin: 0 auto;
     display: grid;
     grid-template:
-      "a a" auto
-      "b c" auto
-      "b d" auto
-      "b e" auto / 50% 50%;
+      "a a a" auto
+      "b b b" auto
+      "c d e" auto/ 33% 34% 33%;
   }
-  #weather img {
-    width: 90%;
-    height: auto;
-    margin: auto 5px;
+  #weather figure {
     grid-row: b;
+    width: 300%;
+    margin: 0;
+  }
+  #weather figure img{
+    width: 100px;
+    height: auto;
   }
   #weather h4 {
     grid-row: a;
     column-span: all;
-    width: 200%;
+    width: 300%;
     margin: 0;
     padding: 10px;
   }
   #weather p {
-    margin: 2px;
-    height: auto;
-    font-size: 1.1em;
+    padding: 0px;
+    height: fit-content;
+    font-size: .9em;
   }
   #weather p:nth-child(3) {
     grid-row: c;
   }
   #weather p:nth-child(4) {
     grid-row: d;
+    border-left: 1px solid #a31621;
+    border-right: 1px solid #a31621;
   }
   #weather p:nth-child(5) {
     grid-row: e;

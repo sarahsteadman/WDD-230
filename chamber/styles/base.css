@@ -174,7 +174,8 @@ p{
   font-size: 20px;
 }
 #weather img{
-  margin-bottom: 20px;
+  width: fit-content;
+  height: fit-content;
   border: 2px solid #ffd26f;
 }
 #weather p{
