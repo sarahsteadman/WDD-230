@@ -19,7 +19,7 @@ function  displayResults(weatherData) {
     speed = weatherData.wind.speed;
     calculateWindChill(speed,temperature);
   
-    const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
+    const iconsrc = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
     const desc = weatherData.weather[0].description;
     
     weatherIcon = document.querySelector("#icon");
