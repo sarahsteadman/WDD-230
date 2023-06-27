@@ -4,6 +4,9 @@ body {
 p, a {
   font-family: Arial, Helvetica, sans-serif;
 }
+a{
+  text-decoration: none;
+}
 h1,
 h2 {
   font-size: 7vw;
@@ -36,8 +39,13 @@ h2 {
   text-align: center;
   display: inline;
 }
-.logo {
+#header-box a{
   grid-area: a;
+}
+#header-box a img:hover{
+  opacity: .85;
+}
+.logo {
   width: 15vw;
   height: 15vw;
   border: 1px solid #a31621;
@@ -223,6 +231,7 @@ footer p {
   width: 50vw;
   color: black;
   font-size: 22px;
+  text-decoration: underline;
 }
 .location:hover{
   color:#a31621;
