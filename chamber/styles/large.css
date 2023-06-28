@@ -114,9 +114,6 @@
   #join {
     grid-area: f;
   }
-  #join button {
-    margin-top: 80px;
-  }
   #event {
     grid-area: a;
     margin: 0 auto;
@@ -171,9 +168,8 @@
     padding-top: 10px;
     font-size: 20px;
   }
-  footer section p {
+  footer div p {
     font-size: 20px;
-    padding-bottom: 5px;
   }
   .location {
     font-size: 22px;

@@ -19,8 +19,10 @@
   </head>
   <body>
     <header>
-      <section id="header-box">
-        <p id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+      <div id="header-box">
+        <p id="banner">
+          Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </p>
         <a href="index.html">
           <img
             src="images/logo.webp"
@@ -28,10 +30,10 @@
             class="logo"
           >
         </a>
-        <section id="headers">
+        <div id="headers">
           <h1>Genovia</h1>
           <h2>Chamber of Commerce</h2>
-        </section>
+        </div>
         <div id="right-stuff">
           <div class="socials">
             <a href="https://facebook.com" target="_blank">
@@ -44,24 +46,24 @@
           <button id="hamButton">&#9776;</button>
         </div>
         <nav id="nav-menu">
-            <a class="menu-items" href="discover.html">Discover</a>
-            <a class="menu-items" href="directory.html">Directory</a>
-            <a class="menu-items" href="join.html">Join</a>
-            <a class="menu-items" href="index.html">Contact</a>
+          <a class="menu-items" href="discover.html">Discover</a>
+          <a class="menu-items" href="directory.html">Directory</a>
+          <a class="menu-items" href="join.html">Join</a>
+          <a class="menu-items" href="index.html">Contact</a>
         </nav>
         <p id="time"></p>
-      </section>
+      </div>
     </header>
     <main>
       <section id="hero">
         <h3>Welcome to Genovia!</h3>
         <picture>
-         <source media="(max-width: 650px)"  srcset="images/hero-small.jpg">          
-         <source media="(max-width: 1140px)" srcset="images/hero-medium.jpg">          
-         <source media="(max-width: 2300px)" srcset="images/hero-large.jpg">
-         <img src="images/temp-hero.jpg" alt="business meeting">            
+          <source media="(max-width: 650px)" srcset="images/hero-small.jpg" >
+          <source media="(max-width: 1140px)" srcset="images/hero-medium.jpg" >
+          <source media="(max-width: 2300px)" srcset="images/hero-large.jpg" >
+          <img src="images/temp-hero.jpg" alt="business meeting" >
         </picture>
-        <form action="join.html" method="get"><button>Join</button></form>
+        <button onclick="location.href='join.html'" type="button">Join</button>
       </section>
       <section id="event">
         <h4>Ribbon Cutting</h4>
@@ -72,44 +74,70 @@
       </section>
       <section id="weather">
         <h4>Weather</h4>
-        <figure>          
-          <img id="icon" src="images/weather.png" alt="weather stand in">
+        <figure>
+          <img id="icon" src="images/weather.png" alt="weather stand in" >
           <figcaption id="iconCap"></figcaption>
         </figure>
-        <p>Temperature<br><span id="temperature"></span>F</p>
-        <p>Wind Speed<br><span id="speed"></span>M/H</p>
-        <p>Wind Chill<br><span id="chill"></span></p>        
+        <p>Temperature<br ><span id="temperature"></span>F</p>
+        <p>Wind Speed<br ><span id="speed"></span>M/H</p>
+        <p>Wind Chill<br ><span id="chill"></span></p>
       </section>
       <section id="news">
         <h4>News Release</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur nibh sed magna eleifend ullamcorper. In dapibus dui a lorem blandit, et mattis velit varius. Phasellus facilisis dui eu metus euismod, fermentum venenatis risus tristique. Vestibulum iaculis lectus lacus, nec tempor velit elementum vel. Nam venenatis pellentesque dui eu varius. Aliquam vestibulum eros erat, sit amet suscipit ante dapibus vitae. Duis ultrices lorem sed sapien iaculis volutpat. Pellentesque aliquet placerat tellus.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+          efficitur nibh sed magna eleifend ullamcorper. In dapibus dui a lorem
+          blandit, et mattis velit varius. Phasellus facilisis dui eu metus
+          euismod, fermentum venenatis risus tristique. Vestibulum iaculis
+          lectus lacus, nec tempor velit elementum vel. Nam venenatis
+          pellentesque dui eu varius. Aliquam vestibulum eros erat, sit amet
+          suscipit ante dapibus vitae. Duis ultrices lorem sed sapien iaculis
+          volutpat. Pellentesque aliquet placerat tellus.
+        </p>
       </section>
       <section id="join">
-        <form action="join.html" method="get">
-          <button> Join Us!</button>
-        </form>
-        <p>Discover how to join the chamber of commerce and how it will benefit your organization.</p>
+        <h4>Join US</h4>
+          <button onclick="location.href='join.html'" type="button">Apply Today!</button>
+        <p>
+          Discover how to join the chamber of commerce and how it will benefit
+          your organization.
+        </p>
       </section>
-      <section id="spotlights">
+      <div id="spotlights">
         <section>
           <h5>Sweet Cheese</h5>
-          <img src="images/cheese.jpg" alt="Cheese">
+          <img src="images/cheese.jpg" alt="Cheese" >
           <p>Don't knock it til you try it</p>
-          <p><small>info@GenovianCheese.com<br> 999-999-9999 | Website</small></p>
+          <p>
+            <small
+              >info@GenovianCheese.com<br >
+              999-999-9999 | Website</small
+            >
+          </p>
         </section>
         <section>
           <h5>Famous Pears</h5>
-          <img src="images/pears.jpg" alt="Pears">
+          <img src="images/pears.jpg" alt="Pears" >
           <p>The most succulent pears in Genovia</p>
-          <p><small>info@GenovianPear.com<br> 999-999-9999 | Website</small></p>
+          <p>
+            <small
+              >info@GenovianPear.com<br >
+              999-999-9999 | Website</small
+            >
+          </p>
         </section>
         <section>
           <h5>Fancy Cats</h5>
-          <img src="images/cat.jpg" alt="Persian Cat">
+          <img src="images/cat.jpg" alt="Persian Cat" >
           <p>Look like the queen!</p>
-          <p><small>info@GenovianCat.com<br> 999-999-9999 | Website</small></p>
+          <p>
+            <small
+              >info@GenovianCat.com<br >
+              999-999-9999 | Website</small
+            >
+          </p>
         </section>
-      </section>
+      </div>
     </main>
     <footer>
       <img
@@ -123,13 +151,17 @@
         Diary, Genovia 20297
       </p>
       <p id="email">info@GenoviaCOC.org <br >(444) 889-9900</p>
-      <a class="location" href="https://www.google.com/maps/@46.6418625,1.717057,6.71z?hl=en">Location Map</a>
-      <section>
+      <a
+        class="location"
+        href="https://www.google.com/maps/@46.6418625,1.717057,6.71z?hl=en"
+        >Location Map</a
+      >
+      <div>
         <p>&copy; <span id="year"></span> Genovia Chamber</p>
         <p>Sarah Steadman</p>
         <p>WDD 230 Project</p>
         <p>Last Updated <span id="update"></span></p>
-      </section>
+      </div>
     </footer>
     <script src="scripts/main.js"></script>
     <script src="scripts/windchill.js"></script>

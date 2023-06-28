@@ -122,7 +122,7 @@ nav.responsive a:hover {
   height: 1em;
 }
 /* *************************************Main Area************************************* */
-main section {
+main section, #spotlights {
   height: auto;
   width: 90%;
   margin: 10px auto;
@@ -191,9 +191,9 @@ p{
   color:#a31621;
 }
 #join button{
+  margin: auto;
   display: block;
   width: 200px;
-  margin: 20px auto;
   color:#a31621;
   background-color: #fffff4;
   font-family: "Raleway", sans-serif;
@@ -237,13 +237,13 @@ footer p {
 .location:hover{
   color:#a31621;
 }
-footer section{
+footer div{
   background-color: #ffd26f;
   padding: 5px;
   width: 100%;
 
 }
-footer section p{
+footer div p{
   color: #a31621;
   font-size: smaller;
   margin: 2px;
