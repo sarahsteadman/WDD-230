@@ -270,11 +270,11 @@ figcaption{
   font-style: italic;
 }
 /*************************************** FORM ********************************************/
-#join, fieldset{
+#join, fieldset, #contact{
   display: flex;
   flex-direction: column;
 }
-#join h2{
+#join h2, #contact h2{
   text-align: center;
 }
 legend{
@@ -304,6 +304,9 @@ fieldset{
   margin: 10px;
   border: 2px solid #ffd26f;
 }
+fieldset h4{
+  margin:10px;
+}
 label{
   display: flex;
   flex-direction: column;
@@ -315,11 +318,14 @@ label{
 #member-level label{
   display: initial;
 }
-.top input{
+.top input, .top textarea{
   font-size: 1.3rem;
   border-radius: 4px;
   padding: .75rem;
   border: 1px solid gray;
+}
+textarea{
+  height: 250px;
 }
 form label.top input:required{
   border-left: red solid 6px;

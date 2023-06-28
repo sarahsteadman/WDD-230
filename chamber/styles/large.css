@@ -199,7 +199,13 @@
   #member-level {
     padding: 15% 10px 15% 10px;
   }
-  #member-level legend {
+  #info {
+    padding: 35% 10px 35% 10px;
+  }
+  #info p{
+    margin: 20px auto;
+  }
+  #member-level legend, #info legend {
     text-align: center;
     margin: 0px;
   }

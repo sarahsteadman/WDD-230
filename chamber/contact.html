@@ -54,11 +54,29 @@
         <p id="time"></p>
       </div>
     </header>
-    <main id="thank-main">
-        <section id="thank">
-            <h2> Thank you!</h2>
-            <p> We will review your application and get back to you shortly.</p>
-        </section>
+    <main id="contact">
+        <h2>Contact Us</h2>
+        <form>
+                <fieldset>
+                    <legend>Email</legend>
+                    <label for="name" class="top">Name:<input type="text" id="name" name="user_name" required/></label>
+                    <label for="mail" class="top">E-mail:<input type="email" id="mail" name="user_email" required /></label>
+                    <label for="msg" class="top">Message:<textarea id="msg" name="user_message" required></textarea></label>
+                    <button type="submit" class="submitBtn">Send</button>
+                </fieldset>
+                <fieldset id="info">
+                    <legend>Information</legend>
+                    <h4>Phone</h4>
+                    <p>(444) 889-9900</p>
+                    <h4>Address</h4>
+                    <p id="address">
+                        Genovia Chamber of Commerce<br >
+                        1082 Pear Tree Rd<br >
+                        Diary, Genovia 20297
+                      </p>
+                </fieldset>
+          </form>
+          <script src="scripts/contact.js"></script>
     </main>
     <footer>
       <img
