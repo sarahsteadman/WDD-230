@@ -109,7 +109,10 @@
   #spotlights section p {
     margin: 0px;
     padding-top: 5px;
-    font-size: 1.25em;
+    font-size: .9em;
+  }
+  #spotlights section img{
+    max-width: 80%;
   }
   #join {
     grid-area: f;
