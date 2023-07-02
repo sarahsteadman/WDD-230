@@ -32,15 +32,15 @@ const displayBusinesses = (businesses) =>{
         image.setAttribute('alt',  `image of ${business.name}`);
         image.setAttribute('loading', 'lazy');
         
-        p.setAttribute('class', 'address');
-        p4.setAttribute('class', 'address');
+        p.setAttribute('class', 'disapear');
+        p4.setAttribute('class', 'disapear');
         
         
         h2.textContent = `${business.name}`
-        p.textContent = `Address: ${business.address}`
-        p2.textContent = `Phone: ${business.phone}`
-        p3.textContent = `Email: ${business.email}`
-        p4.textContent = `Website: ${business.website}`
+        p.textContent = `${business.address}`
+        p2.textContent = `${business.phone}`
+        p3.textContent = `${business.email}`
+        p4.textContent = `${business.website}`
         
         card.appendChild(h2);
         card.appendChild(image)

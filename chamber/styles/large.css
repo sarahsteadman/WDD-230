@@ -231,7 +231,7 @@
     margin: 100px auto;
   }
   /* *************************************Directory*************************************** */
-#directory-main .list .address{
+#directory-main .list .disapear{
   display: block;
 }
 #directory-main .list section p, #directory-main .list section h2{

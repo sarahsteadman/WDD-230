@@ -400,7 +400,7 @@ tbody tr:nth-child(3) {
 #directory-main .list section:nth-child(odd){
 background-color: #fff9a3;
 }
-#directory-main .list .address{
+#directory-main .list .disapear{
 display: none;
 }
 #directory-main .list section p, #directory-main .list section h2{

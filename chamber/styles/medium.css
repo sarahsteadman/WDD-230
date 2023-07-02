@@ -71,7 +71,7 @@
     width: 16vw;
     height: 16vw;
   }
-  #address {
+  .address {
     grid-area: b;
     margin: auto;
     width: 200px;
