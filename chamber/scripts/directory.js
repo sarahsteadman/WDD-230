@@ -56,7 +56,6 @@ const displayBusinesses = (businesses) =>{
 async function getbusinessData() {
     const response = await fetch(file);
     const data = await response.json();
-    console.table(data.businesses); 
     displayBusinesses(data.businesses);
   }
   
