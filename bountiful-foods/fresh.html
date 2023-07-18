@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="description" content="The home of Bountiful Foods. WDD-230 Final Project">
+    <link rel="stylesheet" href="styles/normalize.css" >
+    <link rel="stylesheet" href="styles/base.css" >
+    <link rel="stylesheet" href="styles/medium.css" >
+    <link rel="stylesheet" href="styles/large.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+          <a href="index.html">
+            <img
+              src="images/simple-logo.png"
+              alt="logo for Bountiful Foods"
+              class="logo"
+            >
+          </a>
+            <button id="hamButton">&#9776;</button>
+          </div>
+          <nav id="nav-menu">
+            <a class="menu-items" href="index.html">Home</a>
+            <a class="menu-items" href="fresh.html">Drink Fresh</a>
+            <a class="menu-items" href="about.html">About Us</a>
+          </nav>
+      </header>
+      <main id="fresh-main">
+        <h2>Fresh Smoothie Designer</h2>
+        <form id="smoothie-form">
+            <fieldset id="customer-info">
+                <legend>Customer Information</legend>
+                <label class="blue" >First Name <input type="text" name="fname" id="fname" required></label>
+                <label class="green" >Email <input type="email" name="email" id="email" placeholder="abc@email.com" required></label>
+                <label class="pink" >Cell Phone <input type="tel" name="cell" id="cell" required></label>
+            </fieldset>
+            <fieldset id="fruits">
+                <legend>Fruit Selection</legend>
+                <label class="green">Fruit One<select id="f1" class="green"></select></label>
+                <label class="pink">Fruit Two<select id="f2" class="pink"></select></label>              
+                <label class="blue">Fruit Three<select id="f3" class="blue"></select></label> 
+            </fieldset>
+            <fieldset id="special" class="green">
+                <legend>Special Instructions</legend>
+                <textarea type="text" name="special" id="instructions" class="green" placeholder="Anything else we need to know?"></textarea>
+            </fieldset>
+            <input type="submit" value="Save Smoothie" class="page-button" id="sb-button">
+        </form>
+        <section id="cards" class="empty">
+          <h3>Fruit Orders</h3>
+
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section>
+            <h4>Contact Us</h4>
+            <p> Phone: 999-999-9999<br> Email: info@bountifulfoods.com <br> Address: 999 Bountiful Way, carlsbad, CA</p>
+        </section>
+        <section>
+            <h4> Follow Us On Social Media!</h4>
+            <div id="socials">
+              <a href="https://facebook.com" target="_blank">
+                  <img src="images/facebook.png" alt="facebook icon" >
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                  <img src="images/instagram.png" alt="instagram icon" >
+                </a>          
+                <a href="https://twitter.com" target="_blank">
+                  <img src="images/twitter.png" alt="twitter icon" >
+                </a>          
+            </div>
+          </section>
+          <p id="update-p">Last Updated: <span id="update"></span></p>
+      </footer>
+      <script src="scripts/fresh.js"></script>
+      <script src="scripts/main.js"></script>
+</body>
+</html>
