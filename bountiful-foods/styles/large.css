@@ -5,13 +5,7 @@
     #nav-menu a{
         font-size: 25px;
     }
-    #headings{
-        background-color: #ffffff00;
-        text-align: left;
-        border: none;
-        left: 1%;
-    }
-    #hero img{
+    .hero img{
         border-top: 2px solid #30D99D;
         border-bottom: 2px solid #30D99D;
     }
@@ -21,6 +15,10 @@
     }
     #area img{
         width:80%;
+    }
+    #area p{
+        margin: auto auto auto 45px;
+        max-width: 475px;
     }
     h3{
     font-size: 2.2em;
@@ -70,4 +68,51 @@
     #sb-button, #special{
         grid-column: 1/3;
     }
+    #special{
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+    /* About Us */
+    #center{
+        width: 100%;
+        max-width: 1200px;
+        position: static;
+        display: grid;
+        grid-template:"a b" auto
+                      "a c" auto
+                      "a d" auto
+                      "a e" auto / 50% 50%;
+    }
+    #about-main section{
+        position: static;
+        grid-column: 2;
+        width: 70%;
+        height: min-content;
+        margin: auto;
+        border: none;
+        padding: 15px 30px;
+    }
+    #about-main #cliff img{
+        width: 90%;
+        max-width: 450px;
+        border-radius: 5px;
+        border:3px solid #30D99D;
+      }
+    #center section h3{
+        font-size: 2.1vw;
+        margin: .8vw;
+      }
+    #center section p{
+        font-size: 1.3em;
+        margin: 0px;
+    }
+    #about-main #cliff{
+        grid-area: a;
+        height: min-content;
+    }
+    iframe{
+        height: 20vw;
+      }
+
 }

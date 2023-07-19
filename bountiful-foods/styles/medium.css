@@ -1,4 +1,4 @@
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 650px) {
 p{
     font-size: 1.2em;
 }
@@ -69,5 +69,35 @@ figure{
 #weather div p{
     width:200px;
     margin: 0px;
+}
+/* fresh */
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+/* about us */
+#center{
+    width: 77%;
+    margin: auto;
+  }
+  #center section{
+    padding: 10px;
+    left:11%;
+    width: 72%;
+  }
+#center section:nth-child(1){
+top:8%
+}
+#center section:nth-child(2){
+top:28%
+}
+#center section:nth-child(3){
+top:43%
+}
+#center section:nth-child(4){
+top:65%
+}
+iframe{
+height: 40vw;
 }
 }

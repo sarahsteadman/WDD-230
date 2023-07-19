@@ -31,7 +31,15 @@
           </nav>
       </header>
       <main id="fresh-main">
-        <h2>Fresh Smoothie Designer</h2>
+        <div class="hero">
+          <h1>Fresh Smoothie Designer</h1>
+          <picture id="fresh">
+            <source media="(max-width: 550px)" srcset="images/fresh-small.jpg" >
+            <source media="(max-width: 900px)" srcset="images/fresh-medium.jpg" >
+            <source media="(max-width: 2300px)" srcset="images/fresh-large.jpg" >
+            <img src="images/fresh.jpg" alt="Fresh Fruit">
+          </picture>
+        </div>
         <form id="smoothie-form">
             <fieldset id="customer-info">
                 <legend>Customer Information</legend>
@@ -52,9 +60,6 @@
             <input type="submit" value="Save Smoothie" class="page-button" id="sb-button">
         </form>
         <section id="cards" class="empty">
-          <h3>Fruit Orders</h3>
-
-          </div>
         </section>
       </main>
       <footer>

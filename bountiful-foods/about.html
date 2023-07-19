@@ -31,11 +31,41 @@
           </nav>
       </header>
       <main id="about-main">
-        <h2>About Us</h2>
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.71876360987!2d-117.37020486886!3d33.121636210584846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1689659245591!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 550px)" srcset="images/fruit-small.jpg" >
+                <source media="(max-width: 900px)" srcset="images/fruit-medium.jpg" >
+                <source media="(max-width: 2300px)" srcset="images/fruit-large.jpg" >
+                <img src="images/fruit.jpg" alt="Fruit Smoothie">
+              </picture>
+            <h1>More About Us!</h1>
+        </div>
+        <div id="center">
+            <section>
+                <h3>Our Story</h3>
+                <p class="indent"> In 1978 Lucia S. Bountiful traveled the world looking the most delicious strawberry known to man. She found it in Carlsbad California. After she finished mourning the loss of the most delicious strawberry, she dedicated her life to growing and selling produce that could rival it's flavor.</p>
+            </section>
+            <section>
+                <h3>Contact Us</h3>
+                <p> Phone: 999-999-9999<br> Email: info@bountifulfoods.com <br> Address: 999 Bountiful Way, carlsbad, CA</p>
+            </section>
+            <section>
+                <h3>Carlsbad History</h3>
+                <p class="indent">Once inhabited by the Luiseño people, it later became part of a Mexican land grant. The arrival of the railroad in the 19th century brought development and tourism. Named after a famous spa town, Carlsbad became a health resort. Today Bountiful Foods supplies visitors and locals alike with delicious and healthy produce. </p>
+            </section>
+            <section>
+                <h3>Map</h3>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.71876360987!2d-117.37020486886!3d33.121636210584846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA!5e0!3m2!1sen!2sus!4v1689659245591!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <picture id="cliff">
+                <source media="(max-width: 550px)" srcset="images/cliff-small.jpg" >
+                <source media="(max-width: 2300px)" srcset="images/cliff-large.jpg" >
+                <img src="images/cliff.jpg" alt="Fruit Smoothie">
+              </picture>
+        </div>
       </main>
       <footer>
-        <section>
+          <section>
             <h4>Contact Us</h4>
             <p> Phone: 999-999-9999<br> Email: info@bountifulfoods.com <br> Address: 999 Bountiful Way, carlsbad, CA</p>
         </section>
@@ -55,7 +85,6 @@
           </section>
           <p id="update-p">Last Updated: <span id="update"></span></p>
       </footer>
-      <script src="scripts/weather.js"></script>
       <script src="scripts/main.js"></script>
 </body>
 </html>

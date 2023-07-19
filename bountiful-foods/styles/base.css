@@ -24,6 +24,9 @@ p{
   font-size: 3.5vw;
   color: #301a4b;
 }
+.indent{
+  text-indent: 30px;
+}
 a:hover, button:hover, .page-button:hover{
   filter: drop-shadow(0 0 3px gray);
 }
@@ -85,16 +88,16 @@ nav.responsive a:hover{
 }
 /* Main */
 main{
-    background-image: linear-gradient(#ffffff, #30D99D);
+    background-image: linear-gradient(#ffffff, #9adec7);
 
 }
-#hero img{
+.hero img, #fresh img, #smoothies img{
   width: 100%;
 }
-#hero{
+.hero{
   position: relative;
 }
-#headings{
+#headings, #about-main div h1,#fresh-main h1{
   position: absolute;
   top: 28%;
   left: 20%;
@@ -108,16 +111,21 @@ main{
 #area{
   margin-top: 100px;
 }
+h3{
+  font-size: 4vw;
+  margin:30px;
+}
 #area img{
   width: 80vw;
   display: block;
   margin: 0 auto;
 }
 #area p{
-  text-align: center;
+  margin: 40px 60px 0px 90px;
+  
 }
 #middle{
-  margin-top: 100px;
+  margin-top: 70px;
   padding: 1px 30px;
 }
 #middle section{
@@ -132,9 +140,6 @@ main{
   align-items: center;
   justify-content: space-around;
   margin-top: 8px;
-}
-#weather h3{
-  margin:5px;
 }
 #days p{
 border: 1px solid #C73880;
@@ -197,6 +202,11 @@ footer img{
 #fresh-main{
     background-image: linear-gradient(#ffffff, rgb(250, 237, 255));
 }
+#fresh-main h1{
+  width: 80%;
+  left: 8%;
+  top:25%;
+}
 form{
   padding-bottom: 10px;
 }
@@ -214,12 +224,10 @@ legend{
   padding: 5px;
   font-weight: bold;
 }
-#fresh-main h2, #about-main h2{
-  font-family: 'Great Vibes', cursive;
-  font-size: 2.8rem;
-  color:#2075BC;;
+#fresh-main h1, #about-main h1{
   text-align: center;
-  padding-top: 40px;
+  padding:30px 10px 13px 10px;
+  margin: 15px;
 }
 input, label, textarea{
   font-size: 1.3rem;
@@ -300,6 +308,48 @@ margin: 10px;
 #about-main{
   background-image: linear-gradient(#ffffff, rgb(154, 198, 255));
 }
-#about-main h2{
-  color: #18815C;
+#about-main h1{
+  color:#2075BC;
+}
+#center{
+  position: relative;
+  padding: 30px 0px;
+}
+#about-main #cliff img{
+  width: 95%;
+  margin: 40px auto;
+  display: block;
+  z-index: -1;
+}
+#about-main #cliff img{
+  z-index: -1;
+}
+#about-main section{
+  z-index: 2;
+  position: absolute;
+  left: 12%;
+  background-color: #ffffff;
+  padding: 0px 5%;
+  border:4px dotted #18815C;
+  border-radius: 5px;
+  width: 65%;
+}
+#center section h3{
+  font-size: 4vw;
+  margin: 2vw;
+}
+iframe{
+  height: 50vw;
+}
+#center section:nth-child(1){
+top:8%
+}
+#center section:nth-child(2){
+top:28%
+}
+#center section:nth-child(3){
+top:43%
+}
+#center section:nth-child(4){
+top:65%
 }

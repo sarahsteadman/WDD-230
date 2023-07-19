@@ -31,12 +31,12 @@
           </nav>
       </header>
       <main>
-        <div id="hero">
-          <picture>
-            <source media="(max-width: 550px)" srcset="images/fruit-small.jpg" >
-            <source media="(max-width: 900px)" srcset="images/fruit-medium.jpg" >
-            <source media="(max-width: 2300px)" srcset="images/fruit-large.jpg" >
-            <img src="images/fruit-large.jpg" alt="Fruit Smoothie">
+        <div class="hero">
+          <picture id="smoothies">
+            <source media="(max-width: 550px)" srcset="images/smoothies-small.jpg" >
+            <source media="(max-width: 900px)" srcset="images/smoothies-medium.jpg" >
+            <source media="(max-width: 2300px)" srcset="images/smoothies-large.jpg" >
+            <img src="images/smoothies.jpg" alt="Row of Smoothies">
           </picture>
           <div id="headings">
             <h1>Bountiful Foods</h1>
@@ -46,7 +46,7 @@
         <section id="area">
             <h3>Carlsbad California</h3>
             <img src="images/carlsbad.jpg" alt="Carlsbad California">
-            <p>Information about carlsbad</p>
+            <p class="indent">Once inhabited by the Luiseño people, it later became part of a Mexican land grant. The arrival of the railroad in the 19th century brought development and tourism. Named after a famous spa town, Carlsbad became a health resort. Today Bountiful Foods supplies visitors and locals alike with delicious and healthy produce.</p>
         </section>
         <div id="middle">
             <section id="weather">
@@ -56,15 +56,15 @@
                       <img id="icon" src="images/weather.png" alt="weather stand in" >
                     </figure>
                     <div id="today">
-                      <p>Condition<br><span id="condition">filler</span> </p>
-                      <p>Temperature<br><span id="temperature">filler</span> </p> 
-                      <p>Humidity<br><span id="humidity">filler</span></p>
+                      <p> <span class="green">Condition</span><br><span id="condition">filler</span> </p>
+                      <p> <span class="green">Temperature</span><br><span id="temperature">filler</span> </p> 
+                      <p> <span class="green">Humidity</span><br><span id="humidity">filler</span></p>
                     </div>
                 </div>
                 <div id="days">
-                  <p> <span id="weekday1"></span><br><span id="d1">filler</span>F</p>
-                  <p> <span id="weekday2"></span><br><span id="d2">filler</span>F</p> 
-                  <p> <span id="weekday3"></span><br><span id="d3">filler</span>F</p>
+                  <p> <span id="weekday1"class="green"></span><br><span id="d1">filler</span>F</p>
+                  <p> <span id="weekday2"class="green"></span><br><span id="d2">filler</span>F</p> 
+                  <p> <span id="weekday3"class="green"></span><br><span id="d3">filler</span>F</p>
                 </div>
             </section>
             <section id="fresh-call">
