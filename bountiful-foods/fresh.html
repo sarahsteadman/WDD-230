@@ -20,10 +20,10 @@
               src="images/simple-logo.png"
               alt="logo for Bountiful Foods"
               class="logo"
+              loading="lazy"
             >
           </a>
             <button id="hamButton">&#9776;</button>
-          </div>
           <nav id="nav-menu">
             <a class="menu-items" href="index.html">Home</a>
             <a class="menu-items" href="fresh.html">Drink Fresh</a>
@@ -37,7 +37,7 @@
             <source media="(max-width: 550px)" srcset="images/fresh-small.jpg" >
             <source media="(max-width: 900px)" srcset="images/fresh-medium.jpg" >
             <source media="(max-width: 2300px)" srcset="images/fresh-large.jpg" >
-            <img src="images/fresh.jpg" alt="Fresh Fruit">
+            <img src="images/fresh.jpg" alt="Fresh Fruit" loading="lazy">
           </picture>
         </div>
         <form id="smoothie-form">
@@ -55,12 +55,12 @@
             </fieldset>
             <fieldset id="special" class="green">
                 <legend>Special Instructions</legend>
-                <textarea type="text" name="special" id="instructions" class="green" placeholder="Anything else we need to know?"></textarea>
+                <textarea id="instructions" class="green" placeholder="Anything else we need to know?"></textarea>
             </fieldset>
             <input type="submit" value="Save Smoothie" class="page-button" id="sb-button">
         </form>
-        <section id="cards" class="empty">
-        </section>
+        <div id="cards" class="empty">
+        </div>
       </main>
       <footer>
         <section>
@@ -71,13 +71,13 @@
             <h4> Follow Us On Social Media!</h4>
             <div id="socials">
               <a href="https://facebook.com" target="_blank">
-                  <img src="images/facebook.png" alt="facebook icon" >
+                  <img src="images/facebook.png" alt="facebook icon"  loading="lazy">
                 </a>
                 <a href="https://instagram.com" target="_blank">
-                  <img src="images/instagram.png" alt="instagram icon" >
+                  <img src="images/instagram.png" alt="instagram icon"  loading="lazy">
                 </a>          
                 <a href="https://twitter.com" target="_blank">
-                  <img src="images/twitter.png" alt="twitter icon" >
+                  <img src="images/twitter.png" alt="twitter icon"  loading="lazy">
                 </a>          
             </div>
           </section>

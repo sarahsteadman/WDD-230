@@ -40,8 +40,8 @@ document
 .addEventListener("submit", function (event) {
     let s = Number(window.localStorage.getItem("smoothies")) || 0;
     localStorage.setItem("smoothies", s + 1);
-    console.log(Number(window.localStorage.getItem("smoothies")));
     event.preventDefault();
+    document.querySelector('#sb-button').value = "Make Another?";
     
     let fname = document.querySelector("#fname").value;
     let email = document.querySelector("#email").value;
